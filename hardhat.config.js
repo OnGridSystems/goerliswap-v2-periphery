@@ -30,6 +30,8 @@ module.exports = {
 
   networks: {
     localhost: {
+      url: 'http://localhost:8545/',
+      accounts,
       live: false,
       saveDeployments: true,
       tags: ['local']
